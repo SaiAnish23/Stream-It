@@ -1,4 +1,5 @@
 import { Logo } from "./logo";
+import { Search } from "./search";
 
 export const Navbar = () => {
   return (
@@ -7,7 +8,10 @@ export const Navbar = () => {
     items-center justify-between shadow-sm"
     >
       <Logo></Logo>
-      Navbar
+      {/* Navbar */}
+      <div>
+        <Search />
+      </div>
     </nav>
   );
 };
