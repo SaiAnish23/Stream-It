@@ -22,6 +22,7 @@
     "react": "^18",
     "react-dom": "^18",
     "shadcn-ui": "^0.8.0",
+    "sonner": "^1.4.41",
     "string": "^3.3.3",
     "string-to-color": "^2.2.2",
     "svix": "^1.20.0",
