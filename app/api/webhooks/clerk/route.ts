@@ -62,11 +62,11 @@ export async function POST(req: Request) {
         username: payload.data.username || "anonymous",
         imageUrl: payload.data.image_url,
         // @ts-ignore
-        // stream: {
-        //   create: {
-        //     name: `${payload.data.username}'s stream`,
-        //   },
-        // },
+        stream: {
+          create: {
+            name: `${payload.data.username}'s stream`,
+          },
+        },
       },
     });
   }
